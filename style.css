@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    padding: 32px;
+    font-family: "arimo", sans-serif;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+p, h2 {
+    width: 100%;
+}
+
+body > div {
+    max-width: 600px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    background-image: linear-gradient(90deg, #fb4c02 0%, #e8472b 20%, #e7373d 40%, #e72e48 60%, #e72553 100%);
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 150px;
+    margin-bottom: 32px;
+    position: relative;
+    z-index: -1;
+
+   
+}
+
+header > :nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    margin-top: 90px;
+    padding-left: 45px;
+}
+
+
+
+header > :nth-child(3){
+    display: flex;
+    height: 130px;
+    width: 150px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+
+}
+
+header p {
+    color: white;
+    text-align: right;
+}
+
+header::before {
+    content: url(./assets/sombra.svg);
+    position: absolute;
+    left: 0;
+}
+
+header::after {
+    content: url(./assets/bolinhas.png);
+    position: absolute;
+    bottom: -40px;
+    left: 230px;
+
+    
+    
+}
+
+#imgSeta {
+    margin-right: -25px;
+}
+
+#edicao {
+    font-size: 11px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 0 30px 30px;
+}
+
+
+section > p {
+    font-size: 12.5px;
+}
+
+.fonte {
+    font-size: 10px;
+    color: #b2b1b2;
+    margin-top: 10px;
+}
+
+main > :nth-child(1) {
+    width: 540px;
+}
+
+main > :nth-child(2){
+    display: flex;
+    gap: 16px;
+}
+
+
+
+footer {
+    text-align: center;
+    width: 600px;
+    color: #646768;
+    font-size: 12px;
+}
+
+footer > div {
+    background-color: #fb4c02;
+    padding: 16px 0;
+    margin-bottom: 20px;
+}
