@@ -8,6 +8,7 @@ body {
     background-color: white;
     padding: 32px;
     font-family: "arimo", sans-serif;
+    color: #231f20;
 }
 
 h2 {
@@ -103,6 +104,8 @@ main {
 
 section > p {
     font-size: 12.5px;
+    color: #747879
+    ;
 }
 
 .fonte {
@@ -152,5 +155,9 @@ footer > div {
     background-color: #fb4c02;
     padding: 16px 0;
     margin-bottom: 20px;
+}
+
+a {
+    color: #646768;
 }
 
